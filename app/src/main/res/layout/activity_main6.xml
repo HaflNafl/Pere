@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="224dp"
+        app:srcCompat="@drawable/istockphoto_938742222_1024x1024"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="-12dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="208dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Пицца моцарелла "
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="383dp"
+        android:layout_height="221dp"
+        android:gravity="center"
+        android:text="1В небольшой миске смешиваем дрожжи, сахар и теплую воду, ожидаем появления пузырьков (оставляем при комнатной температуре, накрыв салфеткой или пищевой пленкой) . 2Тем временем смешиваем муку, соль, сахар и оливковое масло в большой миске. 3Готовую дрожжевую закваску добавляем в муку. Замешиваем тесто, пока оно не перестанет липнуть к рукам. 4Духовку разогреваем до 200 градусов. 5При необходимости тесто разделить на части, и раскатать на диски. 6Заготовки смазываем томатным соусом, выкладываем любимую начинку и моцареллу, порезанную на кусочки или натертую на крупной терке. 77. Выпекаем до готовности пиццу, а после подаем её к столу горячей "
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
